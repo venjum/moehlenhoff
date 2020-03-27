@@ -1,0 +1,24 @@
+{
+  "id": "de.moehlenhoff",
+  "version": "0.1.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "Moehlenhoff"
+  },
+  "description": {
+    "en": "Adds support for Moehlenhoff's OEM Alpha 2 system"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Kai André Venjum",
+    "email": "kai.andre@venjum.com"
+  }
+}
