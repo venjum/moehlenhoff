@@ -3,13 +3,12 @@
 const Homey = require('homey');
 
 
-class MyApp extends Homey.App {
+class MoehlenhoffApp extends Homey.App {
 
 	onInit() {
-		this.log('MyApp is running...');
-
+		this.log('Möhlenhoff Application is running...');
 	}
 
 }
 
-module.exports = MyApp;
+module.exports = MoehlenhoffApp;

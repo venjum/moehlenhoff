@@ -1,1 +1,11 @@
-{}
+{
+    "settings": {
+        "title": "Möhlenhoff Settings",
+        "subtitle": "Provide settings for your Alpha 2 device",
+        "fieldPolling": "Polling (in seconds)",
+        "fieldIp": "IP address"
+    },
+    "pair": {
+        "ipNotConfigured": "The IP address for your Alpha 2 device must be configured in APP settings"
+    }
+}

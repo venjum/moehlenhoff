@@ -1,0 +1,28 @@
+{
+    "id": "alpha2",
+    "name": {
+        "en": "Alpha 2"
+    },
+    "class": "thermostat",
+    "capabilities": [
+        "target_temperature",
+        "measure_temperature"
+    ],
+    "images": {
+        "large": "/drivers/alpha2/assets/images/large.png",
+        "small": "/drivers/alpha2/assets/images/small.png"
+    },
+    "pair": [
+        {
+            "id": "list_devices",
+            "template": "list_devices",
+            "navigation": {
+                "next": "add_devices"
+            }
+        },
+        {
+            "id": "add_devices",
+            "template": "add_devices"
+        }
+    ]
+}
