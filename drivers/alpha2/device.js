@@ -23,6 +23,21 @@ class Alpha2Device extends Homey.Device {
         // throw new Error('Switching the device failed!');
     }
 
+    onAdded() {
+        this.log('Device added');
+        // Get data from driver getDriver()
+    }
+
+    async update(room) {
+        let jobs = [
+            this.setCapabilityValue('target_temperature', room.targetTemp),
+            this.setCapabilityValue('measure_temperature', room.measureTemp)
+        ];
+        await Promise.all(jobs).catch((err) => {
+            this.log('Updating values failed:' + err);
+        });
+    }
+
 }
 
 module.exports = Alpha2Device;

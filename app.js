@@ -8,7 +8,6 @@ class MoehlenhoffApp extends Homey.App {
 	onInit() {
 		this.log('Möhlenhoff Application is running...');
 	}
-
 }
 
 module.exports = MoehlenhoffApp;
